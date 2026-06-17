@@ -1,0 +1,52 @@
+/* Modern clean theme inspired by SimpleStudy / Cognito */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fb;
+  color: #1f1f1f;
+  max-width: 850px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+a {
+  display: block;
+  background: white;
+  padding: 18px 22px;
+  border-radius: 14px;
+  font-size: 18px;
+  color: #2563eb;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: 0.2s ease;
+  border: 1px solid #e5e7eb;
+}
+
+a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}

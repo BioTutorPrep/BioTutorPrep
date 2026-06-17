@@ -1,20 +1,20 @@
-/* Biology with Olivia aesthetic — soft greens, rounded cards, calm study vibe */
+/* Biology with Olivia aesthetic – soft greens, rounded cards, calm study vibe */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Kalam:wght@300;400&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #f4f7f2; /* soft off‑white green */
-  color: #2f3e2f; /* dark sage text */
+  background: #f4f7f2;
+  color: #2f3e2f;
   max-width: 850px;
   margin: auto;
   padding: 40px 20px;
 }
 
 h1 {
-  font-family: 'Kalam', cursive; /* handwritten header */
+  font-family: 'Kalam', cursive;
   font-size: 38px;
-  color: #3c6e47; /* plant green */
+  color: #3c6e47;
   margin-bottom: 25px;
 }
 
@@ -48,6 +48,6 @@ a {
 
 a:hover {
   transform: translateY(-4px);
-  background: #eaf5e7; /* soft green hover */
+  background: #eaf5e7;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }

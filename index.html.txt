@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BioTutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AQA A-Level Biology Practice</h1>
+  <p>Choose a topic to begin:</p>
+
+  <ul>
+    <li><a href="biomolecules.html">Biological Molecules</a></li>
+    <li><a href="cells.html">Cells</a></li>
+    <li><a href="exchange.html">Exchange Surfaces</a></li>
+    <li><a href="genetics.html">Genetics</a></li>
+  </ul>
+</body>
+</html>

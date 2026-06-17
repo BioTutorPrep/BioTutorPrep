@@ -1,27 +1,27 @@
-/* Modern clean theme inspired by SimpleStudy / Cognito */
+/* Biology with Olivia aesthetic — soft greens, rounded cards, calm study vibe */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Kalam:wght@300;400&display=swap');
 
 body {
-  font-family: 'Inter', sans-serif;
-  background: #f5f7fb;
-  color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7f2; /* soft off‑white green */
+  color: #2f3e2f; /* dark sage text */
   max-width: 850px;
   margin: auto;
   padding: 40px 20px;
 }
 
 h1 {
-  font-size: 34px;
-  font-weight: 700;
-  color: #2563eb;
-  margin-bottom: 20px;
+  font-family: 'Kalam', cursive; /* handwritten header */
+  font-size: 38px;
+  color: #3c6e47; /* plant green */
+  margin-bottom: 25px;
 }
 
 p {
   font-size: 18px;
   margin-bottom: 25px;
-  color: #444;
+  color: #4a5a4a;
 }
 
 ul {
@@ -30,23 +30,24 @@ ul {
 }
 
 li {
-  margin: 15px 0;
+  margin: 18px 0;
 }
 
 a {
   display: block;
-  background: white;
+  background: #ffffff;
   padding: 18px 22px;
-  border-radius: 14px;
+  border-radius: 16px;
   font-size: 18px;
-  color: #2563eb;
+  color: #3c6e47;
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  transition: 0.2s ease;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dce8d8;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: 0.25s ease;
 }
 
 a:hover {
   transform: translateY(-4px);
+  background: #eaf5e7; /* soft green hover */
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }

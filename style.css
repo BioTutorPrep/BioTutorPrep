@@ -51,3 +51,68 @@ a:hover {
   background: #eaf5e7;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
+/* Topic Section Styling */
+.topic-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #dce8d8;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.topic-section h2 {
+  font-family: 'Kalam', cursive;
+  color: #3c6e47;
+  margin-bottom: 15px;
+}
+
+/* Subtopic Grid */
+.subtopic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));—
+
+.subtopic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.subtopic {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f7faf6;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #dce8d8;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.subtopic:hover {
+  background: #eaf5e7;
+  transform: translateY(-2px);
+}
+
+.subtopic input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #3c6e47;
+}
+
+.subtopic a {
+  text-decoration: none;
+  color: #2f4f34;
+  font-weight: 600;
+}
+
+.subtopic input {
+  pointer-events: auto;
+}
+
+.subtopic a {
+  pointer-events: auto;
+}
+
